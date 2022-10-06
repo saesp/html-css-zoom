@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 500;
+}
+
+.container-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin: 10px 15px;
+}
+.header-label{
+    background-color:rgba(128, 128, 128, 0.395);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.header1{
+    margin-right: 5px;
+}
+
+/* main */
+main{
+
+}
+
+.container-main{
+
+}
+.card{
+    width: calc(100% / 7);
+    height: 100px;
+    position: relative;
+}
+
+.label-card{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.119);
+}
