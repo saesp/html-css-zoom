@@ -29,7 +29,9 @@ header{
     padding: 5px;
     border-radius: 10%;
 }
-
+.header-label:hover{
+    color: gray;
+}
 .header1{
     margin-right: 5px;
 }
@@ -39,6 +41,7 @@ main{
     max-width: 2000px;
     margin-top: 65px;
     background-color:black;
+    margin-bottom: 60px;
 }
 
 .container-main{
@@ -48,6 +51,7 @@ main{
     /* height: 100vh; */
     margin: auto;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 .card{
     width: calc(100% / 7);
@@ -96,6 +100,9 @@ footer{
     text-align: center;
     margin-right: 15px;
 }
+.foot-start div:hover{
+    color: black;
+}
 
 .foot-middle{
     display: flex;
@@ -104,10 +111,19 @@ footer{
     text-align: center;
     margin-right: 15px;
 }
+.foot-middle div:hover{
+    color: black;
+}
 
+#share{
+    color: green;
+}
 .foot-end{
     background-color: rgba(128, 128, 128, 0.393);
     color: red;
     height: 60px;
     padding: 15px 10px;
+}
+.foot-end:hover{
+    color: black;
 }
