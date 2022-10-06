@@ -5,6 +5,7 @@
 }
 
 body{
+    color: white
 
 }
 
@@ -35,21 +36,24 @@ header{
 
 /* main */
 main{
+    max-width: 2000px;
     margin-top: 65px;
+    background-color:black;
 }
 
 .container-main{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
+    /* height: 100vh; */
     margin: auto;
+    justify-content: space-around;
 }
 .card{
     width: calc(100% / 7);
     height: 100px;
     position: relative;
-    margin: auto 20px 60px;
-
+    margin: 0 2px 60px;
 }
 
 .card img{
@@ -68,8 +72,42 @@ main{
 }
 
 /* footer */
-/* footer{
-    background-color: black;
+footer{
+    background-color: rgb(48, 48, 48);
     position: fixed;
-    height: 65px;
-} */
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+}
+
+.container-foot{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-start{
+    display: flex;
+}
+
+.foot-start div{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.foot-middle{
+    display: flex;
+}
+.foot-middle div{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.foot-end{
+    background-color: rgba(128, 128, 128, 0.393);
+    color: red;
+    height: 60px;
+    padding: 15px 10px;
+}
