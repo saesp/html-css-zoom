@@ -6,9 +6,10 @@
 
 body{
     color: white
-
 }
 
+
+/* header */
 header{
     height: 65px;
     width: 100%;
@@ -17,7 +18,6 @@ header{
     z-index: 500;
     top: 0;
 }
-
 .container-header{
     display: flex;
     justify-content: flex-end;
@@ -36,6 +36,7 @@ header{
     margin-right: 5px;
 }
 
+
 /* main */
 main{
     max-width: 2000px;
@@ -43,7 +44,6 @@ main{
     background-color:black;
     margin-bottom: 60px;
 }
-
 .container-main{
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +59,6 @@ main{
     position: relative;
     margin: 0 2px 60px;
 }
-
 .card img{
     width: 200px;
     height: 150px;
@@ -73,7 +72,9 @@ main{
     background-color: rgba(128, 128, 128, 0.119);
     top: 125px;
     color: white;
+    text-align: center;
 }
+
 
 /* footer */
 footer{
