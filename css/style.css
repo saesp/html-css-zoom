@@ -14,6 +14,7 @@ header{
     background-color: black;
     position: fixed;
     z-index: 500;
+    top: 0;
 }
 
 .container-header{
@@ -34,16 +35,27 @@ header{
 
 /* main */
 main{
-
+    margin-top: 65px;
 }
 
 .container-main{
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
 }
 .card{
     width: calc(100% / 7);
     height: 100px;
     position: relative;
+    margin: auto 20px 60px;
+
+}
+
+.card img{
+    width: 200px;
+    height: 150px;
+    position: absolute;
 }
 
 .label-card{
@@ -51,4 +63,13 @@ main{
     width: 100px;
     height: 25px;
     background-color: rgba(128, 128, 128, 0.119);
+    top: 125px;
+    color: white;
 }
+
+/* footer */
+/* footer{
+    background-color: black;
+    position: fixed;
+    height: 65px;
+} */
